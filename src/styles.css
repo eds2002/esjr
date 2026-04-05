@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #1a1a1a;
+  --color-secondary: #6b6b6b;
+  --color-tertiary: #999999;
+  --color-border: #e8e6e3;
+  --color-accent: #c9f06b;
+
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-sans: "Geist Sans", "Geist", system-ui, sans-serif;
+  --font-mono: "Geist Mono", monospace;
+}
+
+html {
+  font-size: 13px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide TanStack Start scroll restoration phantom div */
+body > div:empty {
+  display: none;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-foreground);
+}

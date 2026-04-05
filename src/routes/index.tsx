@@ -72,22 +72,28 @@ function HomePage() {
 						>
 							react-native-screen-transitions
 						</a>
-						, an open-source library with 1,300+ stars for building the kind of
+						, an open-source library with 1,300+ stars, 9K+ weekly installs for building the kind of
 						screen transitions people thought required SwiftUI. I also built{" "}
 						<span className="text-foreground">Grounded</span>, a journaling app
 						for turning heavy thoughts into something lighter.
 					</p>
 					<p className="leading-relaxed text-secondary">
 						Most of my work lives at the intersection of Reanimated, Skia, and
-						Expo — where the hard parts of mobile animation happen. Open to new
-						opportunities so feel free to{" "}
+						Expo — where the hard parts of mobile animation happen.
+					</p>
+				</section>
+
+				{/* Availability */}
+				<section className="mb-16">
+					<p className="leading-relaxed text-secondary">
+						Available for remote React Native roles — contract or full-time.{" "}
 						<a
 							href="mailto:es23jr@gmail.com"
 							className="text-foreground underline decoration-border underline-offset-4 hover:decoration-foreground transition-colors"
 						>
-							reach out
+							Reach out
 						</a>
-						!
+						.
 					</p>
 				</section>
 

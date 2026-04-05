@@ -79,7 +79,15 @@ function HomePage() {
 					</p>
 					<p className="leading-relaxed text-secondary">
 						Most of my work lives at the intersection of Reanimated, Skia, and
-						Expo — where the hard parts of mobile animation happen.
+						Expo — where the hard parts of mobile animation happen. Open to new
+						opportunities so feel free to{" "}
+						<a
+							href="mailto:es23jr@gmail.com"
+							className="text-foreground underline decoration-border underline-offset-4 hover:decoration-foreground transition-colors"
+						>
+							reach out
+						</a>
+						!
 					</p>
 				</section>
 
